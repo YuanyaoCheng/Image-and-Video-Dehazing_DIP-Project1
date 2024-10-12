@@ -3,15 +3,15 @@
 
 ------------
 
-**This project is for digital and signal processing course. **The task is to find method to dehaze the original images in foler /IEI2019 and videos in folder /IEV2022.
+**This project is for digital and signal processing course.** The task is to find method to dehaze the original images in foler /IEI2019 and videos in folder /IEV2022.
 
 In this project, we used both traditional method and deep-learning based method.
 
-Traditional methods: Dark Channel Prior, Retinex, Homorphic Filtering
-**Deep learning method: **AODNet, Dehazeformer
+**Traditional methods:** Dark Channel Prior, Retinex, Homorphic Filtering
+**Deep learning method:** AODNet, Dehazeformer
 
 Thanks to Song Cheng, Zhang Huaijin, Zhou Xingyu, Cheng Yuanyao
-For any details, you can contact: [yuanyao_cheng[]std.uestc.edu.cn]
+For any details, you can contact: [yuanyao_cheng[at]std.uestc.edu.cn]
 
 ------------
 ## 1. Deep Learning Method
@@ -30,7 +30,7 @@ To see the outcomes directly, we have put some results in the following folders:
 ### train
 You should put your dataset as follows:
 ┬─ DM
-│   ├─** dataset**
+│   ├─**dataset**
 │   │   ├─ **gt**
 │   │   │   └─ 0001_GT.png
 │   │   │   ├─ 0002_GT.png
@@ -62,7 +62,7 @@ Basic settings are in the end of the train.py:
 ```
 
 ## 2. Traditional Method
-This method is in /TM. It consists of five files, detailed as follows:
+**This method is in /TM.** It consists of five files, detailed as follows:
 
 
 - **DCP.py**: This file contains the algorithm for image dehazing using the Dark Channel Prior (DCP) method.
