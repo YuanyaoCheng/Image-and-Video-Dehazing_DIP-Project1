@@ -7,7 +7,7 @@
 
 In this project, we used both traditional method and deep-learning based method.
 
-**Traditional methods: **Dark Channel Prior, Retinex, Homorphic Filtering
+Traditional methods: Dark Channel Prior, Retinex, Homorphic Filtering
 **Deep learning method: **AODNet, Dehazeformer
 
 Thanks to Song Cheng, Zhang Huaijin, Zhou Xingyu, Cheng Yuanyao
