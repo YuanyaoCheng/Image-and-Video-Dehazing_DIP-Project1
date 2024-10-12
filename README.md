@@ -28,40 +28,18 @@ And before you run the **Inference.py** ,you should change the following code:
 
 To see the outcomes directly, we have put some results in the following folders:
 
-/DM/output_image: The dehazing images
+- /DM/output_image: The dehazing images
 
-/DM/visualizations: The output of some images in every epoch
+- /DM/visualizations: The output of some images in every epoch
 
-/DM/indicators: The loss value in train and PSNR&SSIM value in validation.
+- /DM/indicators: The loss value in train and PSNR&SSIM value in validation.
 
 
 ### train
 You should put your dataset as follows:
-┬─ DM
 
-│   ├─**dataset**
+![image](https://github.com/user-attachments/assets/8b545fca-f62c-4901-9e40-bd823d3734e5)
 
-│   │   ├─ **gt**
-
-│   │   │   └─ 0001_GT.png
-
-│   │   │   ├─ 0002_GT.png
-
-│   │   │   ├─ .........
-
-│   │   └─** hazy**
-
-│   │   │   └─ 0001_hazy.png
-
-│   │   │   ├─ 0002_hazy.png
-
-│   │   │   ├─ .........
-
-│   └─ train.py
-
-│   └─ .......
-
-└─ TM
 
 There are also some useful datasets, you can find them as follows:
 
@@ -75,6 +53,8 @@ You can choose the loss function (L1loss, MSE, SSIM) in train.py:
 # loss = criterion_mse(clean_image, img_orig)
 loss = 1 - ssim(clean_image, img_orig, data_range=1, size_average=True)
 ```
+
+
 Basic settings are in the end of the train.py:
 ```python
     hazy_images_path = "Your dataset path"
@@ -88,11 +68,11 @@ Basic settings are in the end of the train.py:
 
 
 - **DCP.py**: This file contains the algorithm for image dehazing using the Dark Channel Prior (DCP) method.
-- 
+  
 - **homomorphic_filter.py**: This file includes the algorithm for homomorphic filtering to process images.
-- 
+  
 - **evaluate.py**: This file contains methods for evaluating the quality of dehazed images.
-- 
+  
 - **File video dehazing.py**: This file holds the algorithm for video dehazing using the Dark Channel Prior method.
-- 
+  
 - **File video dehazing iterating.py**: This file presents an algorithm for video dehazing using an iterative approach with the Dark Channel Prior.
