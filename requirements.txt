@@ -1,0 +1,12 @@
+matplotlib
+numpy
+opencv_contrib_python
+opencv_python
+opencv_python_headless
+Pillow
+pytorch_msssim
+scikit_image
+timm
+torch
+torchvision
+tqdm
