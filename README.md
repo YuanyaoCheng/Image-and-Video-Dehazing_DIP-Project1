@@ -3,7 +3,7 @@
 
 ------------
 
-**This project is for digital and signal processing course.** The task is to find method to dehaze the original images in foler /IEI2019 and videos in folder /IEV2022.
+**This project is for digital image processing course.** The task is to find method to dehaze the original images in foler /IEI2019 and videos in folder /IEV2022.
 
 In this project, we used both traditional method and deep-learning based method.
 
