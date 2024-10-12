@@ -19,11 +19,17 @@ For any details, you can contact: [yuanyao_cheng[at]std.uestc.edu.cn]
 ## 1. Deep Learning Method
 The code is put in folder **/DM**.  
 ### Inference
-For simple inference, you should first create a folder, and put your images into the folder.
+For simple inference, you should first create a folder, and put your images or videos into the folder.
 
-And before you run the **Inference.py** ,you should change the following code:
+And before you run the **image_Inference.py** ,you should change the following code:
 ```python
     folder_path = "change into your datapath"
+```
+
+And before you run the **video_Inference.py** ,you should change the following code:
+```python
+    input_video_folder_path = "put the video folder path here"
+    output_video_folder_path = "put the video output folder path here"
 ```
 
 To see the outcomes directly, we have put some results in the following folders:
